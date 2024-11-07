@@ -1,0 +1,696 @@
+.input-group {
+    width: 300px;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(67, 64, 64, 0.9);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.input-margin {
+    margin-left: 3rem;
+
+}
+
+.input-serch-icon {
+    border-right: 0;
+    background-color: rgba(67, 64, 64, 0.9);
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border: none;
+}
+
+.input-arrow-icon {
+    border-left: 0;
+    background-color: rgba(67, 64, 64, 0.9);
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border: none;
+}
+
+
+.bg-light {
+    background-color: transparent !important;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bg-light ul li a {
+    color: white !important;
+    margin-right: 2rem;
+}
+
+.toggler {
+    display: none;
+}
+
+.xuvMahindra700 {
+    font-family: 'Allerta Stencil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 260px;
+    line-height: 383px;
+    color: #55C2FF;
+    opacity: 0.46;
+}
+
+.car-position {
+    position: relative;
+    top: -10rem;
+    left: 70px;
+}
+
+
+.xuvMahindrapara {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/* ---------------------------------------------------xuv-700  ---------------------- */
+
+.xuv-700-height {
+    height: 60vh;
+}
+
+/* ________________________________________offsers Section_________________________________________ */
+.mahindra-xvu-stars i,
+.user-review i {
+    color: #FFAC30;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.mahindra-xvu-stars span, .user-review small{
+    color : rgb(255, 165, 0, .6);
+    font-weight: 100;
+}
+
+.mahindra-xvu-offsers .mahindra-xvu-stars p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #55C2FF;
+    margin-top: 4px;
+}
+
+.mahindra-xvu-offsers i,
+.user-review i {
+    font-size: 2rem;
+    /* color: white; */
+}
+
+.mahindra-xvu-offsers .mahindra-xuv-engine p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    /* line-height: 20px; */
+    color: #55C2FF;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.mahindra-xvu-offsers .mahindra-xuv-engine span {
+    color: white;
+}
+
+.mahindra-xvu-offsers p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 146.5%;
+    color: #FFFFFF;
+}
+
+.mahindra-xuv-700-current-offers p {
+    /* flex-basis: 23rem;
+    margin-left: 5rem; */
+    margin-bottom: 2rem;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35.16px;
+
+}
+
+p {
+    /* flex-basis: 23rem;
+    margin-left: 5rem; */
+    /* margin-bottom: 2rem;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35.16px; */
+
+}
+
+.mahindra-xuv-700-current-offers p a {
+    display: block;
+    margin-top: 2rem;
+    width: 55%;
+    text-align: center;
+    background-color: #FFAC30;
+    border-radius: 10rem;
+    padding: 10px;
+    color: #000000 !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.mahindra-xuv-700-current-offers img {
+    filter: drop-shadow(0px 221px 99px rgba(158, 224, 255, 0.1)) drop-shadow(0px 92.3285px 41.3598px rgba(158, 224, 255, 0.0718854)) drop-shadow(0px 49.3632px 22.1129px rgba(158, 224, 255, 0.0596107)) drop-shadow(0px 27.6726px 12.3963px rgba(158, 224, 255, 0.05)) drop-shadow(0px 14.6967px 6.5836px rgba(158, 224, 255, 0.0403893)) drop-shadow(0px 6.11564px 2.73958px rgba(158, 224, 255, 0.0281146));
+}
+
+
+.mahindra-xuv-700-price {
+    background-image: url(https://s3-alpha-sig.figma.com/img/f007/5278/532a52a3b45aef9da47724c1f3c7e9d9?Expires=1685318400&Signature=IqikIMyZJfdSJ1~xD5-894~253-gKWnYLXwKttmGFV6IR3JgSTs4COMHJO2rDik3Zng0KNM1JhiMJkD4yOWoj5-WQyPvtUp~Bcwo7zinzOgCHZA4UJF~SEaNzwQvSNeFmzzqZ98BFMRaOJy8VAoeQML5RKz-3RxYckG4rMZd5MHw5-mYQV4TacXYmG3eLTqD6C82bj5x9A3UjirI9~EcZb22QB~~0GinyWBuRmSvbIGfkYYhxBxhjTrAkXKSYDKVzngHWIasglK8EegT19-BeyvLLteWPyYdpl1eGxKfLB~RaES2f2WEXHWj-ewuZJbmyE76dIxCgeiJnyTSsUCTsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    width: 100%;
+    padding: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .nav-link.nav-link.active{
+    color : orange !important;
+    position: relative;
+}
+
+ .nav-link.nav-link.active::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: orange;
+    bottom: -4px;
+    left: 0;
+}
+
+.variant .nav-item a{
+    font-size: 20px;
+    font-weight : 800;
+}
+
+.variant .bg-light ul li button {
+    margin-right: 3rem;
+}
+
+.variant button {
+    background-color: black;
+    border: none;
+    color: white !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.average-info td {
+    border-color: black !important;
+}
+
+.average-info {
+    margin-top: 2rem;
+}
+
+.average-info tr td p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 10px;
+    color: rgb(255, 255, 255, .6);
+}
+
+.average-info h6 {
+    margin-bottom: 0;
+    color: white;
+}
+
+.average-info span {
+    color: rgb(255, 172, 48, .6);
+    font-weight: 100;
+}
+
+
+.average-info a,
+.mahindra-xuv-700-expert-advice a,
+.user-review a {
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid #FFAC30;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
+}
+
+.mahindra-xuv-700-expert-advice a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFAC30 !important;
+    font-size: 20px;
+
+}
+
+.average-info a {
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 20px;
+    border: 2px solid orange;
+
+}
+
+.average-info button {
+    background: transparent;
+    border: none;
+    color: orange
+}
+
+.mahindra-xuv-700-mileage table th {
+    color: #55C2FF;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.mahindra-xuv-700-mileage table td {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding-top: 1.5rem;
+}
+
+.mahindra-xuv-700-mileage p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+
+/* ----------------------------Advice------------------------------ */
+.mahindra-xuv-700-expert-advice {
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+
+.mahindra-xuv-700-expert-advice h2 {
+    font-size: 5rem;
+}
+
+.mahindra-xuv-700-expert-advice small {
+    font-size: 2.5rem;
+    line-height: 128%;
+    font-weight: 100;
+    color: #FFAC30;
+}
+
+.mahindra-xuv-700-expert-advice p,
+.pros-and-cons p,
+.pros-and-cons ul li,
+.mahindra-xuv-700-owlCarasole p {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* line-height: 158.5%; */
+    color: #FFFFFF;
+}
+
+.mahindra-xuv-700-expert-advice .img-position {
+    transform: rotateY(174deg) translateY(-12rem);
+}
+
+.mahindra-xuv-700-expert-advice .nav {
+    border: none;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #FFAC30;
+    background-color: transparent;
+    border-color: transparent transparent transparent;
+}
+
+
+.mahindra-xuv-700-expert-advice .advice-para-font-weight {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mahindra-xuv-700-expert-advice .mahindra700 {
+    filter: drop-shadow(0px 221px 99px rgba(158, 224, 255, 0.1)) drop-shadow(0px 92.3285px 41.3598px rgba(158, 224, 255, 0.0718854)) drop-shadow(0px 49.3632px 22.1129px rgba(158, 224, 255, 0.0596107)) drop-shadow(0px 27.6726px 12.3963px rgba(158, 224, 255, 0.05)) drop-shadow(0px 14.6967px 6.5836px rgba(158, 224, 255, 0.0403893)) drop-shadow(0px 6.11564px 2.73958px rgba(158, 224, 255, 0.0281146));
+    width: 100%;
+    object-fit: contain;
+}
+
+.mahindra-xuv-700-expert-advice .advice-button {
+    /* display: block; */
+    /* transform: translateY(-15rem) !important; */
+    color: #FFAC30 !important;
+
+}
+
+/* ---------------------------------------------------prosAndcons ------------------------------*/
+.proAndconsImg {
+    overflow: hidden;
+    height: 30vh;
+    /* transform: translateY(-6rem); */
+}
+
+.pros-and-cons img {
+    width: 100%;
+    transform: translateY(-28rem);
+}
+
+.pros-and-cons h2 {
+    font-size: 4rem;
+}
+
+.pros-and-cons h5 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.pros-and-cons .font-weight-light {
+    font-weight: 300;
+}
+
+hr {
+    height: .1px;
+    width: 100%;
+    background-color: white;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.pros-and-cons ul li {
+    list-style: circle;
+    color: white;
+}
+
+.pros-and-cons ul li {
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35.16px;
+}
+
+/* --------------------------------------------------user-review---------------------------------------------- */
+.user-review h2,
+.mahindra-xuv-700-owlCarasole h2 {
+    text-transform: capitalize;
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.user-review {
+    position: relative;
+}
+
+.user-review .img-position {
+    position: absolute;
+    left: -83px;
+    top: -32px;
+}
+
+.user-review a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.user-review h3,
+.mahindra-xuv-700-owlCarasole h3 {
+    font-size: 5rem;
+}
+
+.user-review span {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.user-review .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-review a {
+
+    /* font-size: 2rem; */
+    display: flex;
+    color: #FFAC30 !important;
+    align-items: center;
+}
+
+.user-review a:nth-of-type(2) {
+    color: white !important;
+    border: 1px solid white;
+}
+
+/* .user-review a i {
+    color: white !important;
+} */
+
+
+.user-review .views {
+    border: 1px solid #FFFFFF;
+    padding: 1rem 1rem 0rem 1rem;
+    margin-top: 3rem;
+}
+
+.user-review .user-review-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 31.7px;
+}
+
+.user-review .user-review-address p {
+    margin-top: 5rem;
+    margin-bottom: 15px;
+    width: 60%;
+    color: white;
+    font-size: 10px;
+
+}
+
+.user-review .viewMore a {
+    margin-top: 5rem !important;
+}
+
+.mahindra-xuv-700-owlCarasole .matrix {
+    background-color: white;
+    height: 6rem;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 8rem;
+
+}
+
+.mahindra-xuv-700-owlCarasole {
+    margin-top: 6rem;
+    overflow: hidden;
+}
+
+.mahindra-xuv-700-owlCarasole .matrix p {
+    background: #FFAC30;
+    width: 100%;
+    height: 4rem;
+    clip-path: polygon(42% 18%, 15% 296%, 84% 107%);
+}
+
+.mahindra-xuv-700-owlCarasole img {
+    width: 100%;
+    height: 34rem;
+}
+
+.mahindra-xuv-700-owlCarasole img {
+    width: 100;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+@media all and (min-width : 778px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        justify-content: space-around;
+        margin-left: 2rem;
+    }
+    .xuvMahindrapara {
+        transform: translateY(-9rem);
+
+    }
+
+    .mahindra-xuv-700-price {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+
+
+    .mahindra-xuv-700-expert-advice .nav li:not(:last-child)::after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 20px;
+        position: absolute;
+        width: 2px;
+        height: 60px;
+        transform: translate(151px, -3rem);
+        background-color: white;
+    }
+
+    .mahindra-xuv-700-expert-advice .nav li::before {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 20px;
+        width: 27%;
+        height: 2px;
+        background: white;
+        bottom: 0;
+        transform: translate(-152px, 29px);
+    }
+
+
+
+}
+
+@media all and (min-width : 992px) {
+
+    .mahindra-xuv-700-expert-advice .row.max-height {
+        max-height: 24rem;
+    }
+}
+
+@media all and (max-width : 778px) {
+    html {
+        font-size: 10px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .input-serch-icon {
+        margin-right: -5px;
+        margin-left: 0;
+    }
+
+    .input-margin {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .input-group {
+        width: 100%;
+        margin: 0;
+    }
+
+    .toggler {
+        display: block;
+    }
+
+    .xuvMahindra700 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .xuvMahindraimg {
+        width: 100% !important;
+        height: 29rem;
+        transform: translateY(0rem);
+    }
+
+    .mahindra-xuv-700-price {
+        margin-top: 2rem;
+    }
+
+    .mahindra-xuv-700-price img,
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mahindra-xuv-700-price img {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .average-info tr td p {
+        font-size: 7px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .average-info tr td h4 {
+        font-size: 10px;
+    }
+
+    .average-info h6 {
+        font-size: 10px;
+    }
+
+    .average-info a {
+        font-size: 5px !important;
+    }
+
+    .mahindra-xuv-700-expert-advice img {
+        width: 100%;
+        transform: rotateY(174deg) translateY(-6rem);
+    }
+
+
+    .mahindra-xuv-700-expert-advice .advice-button {
+        transform: translateY(-9rem) !important;
+    }
+
+    .user-review .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
