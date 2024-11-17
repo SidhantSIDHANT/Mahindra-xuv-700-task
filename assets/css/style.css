@@ -177,7 +177,7 @@ p {
 .mahindra-xuv-700-price {
     background-image: url(https://s3-alpha-sig.figma.com/img/f007/5278/532a52a3b45aef9da47724c1f3c7e9d9?Expires=1685318400&Signature=IqikIMyZJfdSJ1~xD5-894~253-gKWnYLXwKttmGFV6IR3JgSTs4COMHJO2rDik3Zng0KNM1JhiMJkD4yOWoj5-WQyPvtUp~Bcwo7zinzOgCHZA4UJF~SEaNzwQvSNeFmzzqZ98BFMRaOJy8VAoeQML5RKz-3RxYckG4rMZd5MHw5-mYQV4TacXYmG3eLTqD6C82bj5x9A3UjirI9~EcZb22QB~~0GinyWBuRmSvbIGfkYYhxBxhjTrAkXKSYDKVzngHWIasglK8EegT19-BeyvLLteWPyYdpl1eGxKfLB~RaES2f2WEXHWj-ewuZJbmyE76dIxCgeiJnyTSsUCTsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
     width: 100%;
-    padding: 3rem;
+    /* padding: 3rem; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -332,9 +332,7 @@ p {
     color: #FFFFFF;
 }
 
-.mahindra-xuv-700-expert-advice .img-position {
-    transform: rotateY(174deg) translateY(-12rem);
-}
+
 
 .mahindra-xuv-700-expert-advice .nav {
     border: none;
@@ -384,11 +382,11 @@ p {
     height: 30vh;
     /* transform: translateY(-6rem); */
 }
-
+/* 
 .pros-and-cons img {
     width: 100%;
     transform: translateY(-28rem);
-}
+} */
 
 .pros-and-cons h2 {
     font-size: 4rem;
@@ -606,9 +604,59 @@ hr {
 }
 
 @media all and (max-width : 778px) {
-    html {
-        font-size: 10px;
+
+    h2, h3 {
+        font-size: 16px !important;
     }
+
+    p{
+        font-size: 16px !important;
+    }
+
+    .mahindra-xvu-offsers .mahindra-xvu-stars p {
+        font-size: 12px;
+    }
+
+    .user-review a {
+        margin-bottom: 2rem;
+    }
+
+    .nav-tabs .nav-link {
+        /* margin-bottom: -1px; */
+        color: white;
+        font-size: 13px;
+    }
+
+    .pros-and-cons img {
+        /* width: 100%;
+        transform: translateY(-28rem);
+        margin-top: 8rem; */
+    }
+
+    .car-position {
+        position: relative;
+        top: -10rem;
+        left: 0;
+    }
+
+    .xuvMahindrapara {
+        font-size: 16px;
+    }
+
+    .img-fluid {
+        /* max-width: 62%; */
+        height: auto;
+    }
+
+    .mahindra-xuv-700-current-offers p a {
+        display: block;
+        margin-top: 2rem;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
 
     .flex {
         flex-direction: column;
@@ -645,13 +693,12 @@ hr {
     }
 
     .mahindra-xuv-700-price {
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
 
     .mahindra-xuv-700-price img,
     p {
         width: 100%;
-        text-align: center;
     }
 
     .mahindra-xuv-700-price img {
@@ -662,7 +709,7 @@ hr {
 
 
     .average-info tr td p {
-        font-size: 7px;
+        font-size: 10px !important;
         margin: 0;
         padding: 0;
     }
@@ -681,16 +728,23 @@ hr {
 
     .mahindra-xuv-700-expert-advice img {
         width: 100%;
-        transform: rotateY(174deg) translateY(-6rem);
-    }
-
-
-    .mahindra-xuv-700-expert-advice .advice-button {
-        transform: translateY(-9rem) !important;
+        transform: rotateY(174deg);
     }
 
     .user-review .flex {
         display: flex;
         flex-direction: column;
     }
+}
+
+@media all and (min-width : 776px){
+    
+.mahindra-xuv-700-expert-advice .img-position {
+    transform: rotateY(174deg) translateY(-12rem);
+}
+
+.pros-and-cons img {
+    width: 100%;
+    transform: translateY(-28rem);
+}
 }
