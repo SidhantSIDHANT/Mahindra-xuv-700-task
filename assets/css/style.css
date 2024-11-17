@@ -621,6 +621,10 @@ hr {
         margin-bottom: 2rem;
     }
 
+    .variant .nav-item a {
+        font-size: 10px !important;
+    }
+
     .nav-tabs .nav-link {
         /* margin-bottom: -1px; */
         color: white;
