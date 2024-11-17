@@ -89,8 +89,10 @@
     margin-top: 3px;
     margin-bottom: 3px;
 }
-.mahindra-xvu-stars span, .user-review small{
-    color : rgb(255, 165, 0, .6);
+
+.mahindra-xvu-stars span,
+.user-review small {
+    color: rgb(255, 165, 0, .6);
     font-weight: 100;
 }
 
@@ -183,12 +185,12 @@ p {
     background-size: cover;
 }
 
- .nav-link.nav-link.active{
-    color : orange !important;
+.nav-link.nav-link.active {
+    color: orange !important;
     position: relative;
 }
 
- .nav-link.nav-link.active::before {
+.nav-link.nav-link.active::before {
     content: " ";
     position: absolute;
     width: 100%;
@@ -198,9 +200,9 @@ p {
     left: 0;
 }
 
-.variant .nav-item a{
+.variant .nav-item a {
     font-size: 20px;
-    font-weight : 800;
+    font-weight: 800;
 }
 
 .variant .bg-light ul li button {
@@ -382,6 +384,7 @@ p {
     height: 30vh;
     /* transform: translateY(-6rem); */
 }
+
 /* 
 .pros-and-cons img {
     width: 100%;
@@ -548,13 +551,14 @@ hr {
 
 @media all and (min-width : 778px) {
     .navbar-expand-lg .navbar-collapse {
-        display: -ms-flexbox!important;
-        display: flex!important;
+        display: -ms-flexbox !important;
+        display: flex !important;
         -ms-flex-preferred-size: auto;
         flex-basis: auto;
         justify-content: space-around;
         margin-left: 2rem;
     }
+
     .xuvMahindrapara {
         transform: translateY(-9rem);
 
@@ -568,16 +572,12 @@ hr {
 
 
 
-    .mahindra-xuv-700-expert-advice .nav li:not(:last-child)::after {
-        position: absolute;
-        content: "";
-        width: 10px;
-        height: 20px;
-        position: absolute;
-        width: 2px;
-        height: 60px;
-        transform: translate(151px, -3rem);
-        background-color: white;
+}
+
+@media all and (min-width : 992px) {
+
+    .mahindra-xuv-700-expert-advice .row.max-height {
+        max-height: 24rem;
     }
 
     .mahindra-xuv-700-expert-advice .nav li::before {
@@ -591,25 +591,16 @@ hr {
         bottom: 0;
         transform: translate(-152px, 29px);
     }
-
-
-
-}
-
-@media all and (min-width : 992px) {
-
-    .mahindra-xuv-700-expert-advice .row.max-height {
-        max-height: 24rem;
-    }
 }
 
 @media all and (max-width : 778px) {
 
-    h2, h3 {
+    h2,
+    h3 {
         font-size: 16px !important;
     }
 
-    p{
+    p {
         font-size: 16px !important;
     }
 
@@ -647,6 +638,12 @@ hr {
         font-size: 16px;
     }
 
+    .xuvMahindrapara {
+        font-size: 16px;
+        position: relative;
+        top: -129px;
+    }
+
     .img-fluid {
         /* max-width: 62%; */
         height: auto;
@@ -657,10 +654,10 @@ hr {
         margin-top: 2rem;
         width: 55%;
         margin-left: auto;
+        font-size: 14px;
         margin-right: auto;
-        
     }
-    
+
 
     .flex {
         flex-direction: column;
@@ -727,7 +724,7 @@ hr {
     }
 
     .average-info a {
-        font-size: 5px !important;
+        font-size: 10px !important;
     }
 
     .mahindra-xuv-700-expert-advice img {
@@ -741,14 +738,41 @@ hr {
     }
 }
 
-@media all and (min-width : 776px){
-    
-.mahindra-xuv-700-expert-advice .img-position {
-    transform: rotateY(174deg) translateY(-12rem);
+@media all and (min-width : 776px) {
+
+    .mahindra-xuv-700-expert-advice .img-position {
+        transform: rotateY(174deg) translateY(-12rem);
+    }
+
+    .pros-and-cons img {
+        width: 100%;
+        transform: translateY(-28rem);
+    }
 }
 
-.pros-and-cons img {
-    width: 100%;
-    transform: translateY(-28rem);
+@media all and (min-width :778px) and (max-width : 994px){
+    .mahindra-xuv-700-current-offers p a {
+        width: 100%;
+    
+    }
 }
+
+@media all and (min-width : 778px) and (max-width : 991px){
+    .pros-and-cons img {
+        transform: translateY(-18rem);
+    }
+}
+
+@media all and (min-width : 1200px) {
+    .mahindra-xuv-700-expert-advice .nav li:not(:last-child)::after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 20px;
+        position: absolute;
+        width: 2px;
+        height: 60px;
+        transform: translate(151px, -3rem);
+        background-color: white;
+    }
 }
